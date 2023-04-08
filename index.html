@@ -1,0 +1,113 @@
+<!DOCTYPE html
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Samara Presentes</title>
+		
+		<style scoped>
+		
+		:root {
+		/* --navbar-color: #EE626B; */
+		--principal-color: #FECCE6;
+		--background-color: #F0AAAF;
+		--produtos-color: #736364;
+		--text-color: #232323;
+		--button-color: #B86774;
+		}
+					
+		*{
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+		user-select: none;
+		}	
+		
+		body{
+		font-family: poppins;
+		font-size: 20px;
+		}
+		
+		.navbar{
+		height: 80px;
+		width: 100%;
+		background-color: var(--principal-color);
+		
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		}
+		
+		.navbar h1{
+		color: white;
+		text-shadow: 0 0 2px black;
+		}
+		
+		.button-c, .button-p{
+		width: 125px;
+		height: 40px;
+		border: 1px solid var(--button-color);
+		background-color: var(--button-color);
+		border-radius: 10px;
+		text-transform: uppercase;
+		text-shadow: 0 0 2px black;
+		color: white;
+		margin: 2.5px;
+		transition: all .2s;
+		cursor: pointer;
+		}
+		
+		.button-c:hover, .button-p:hover{
+		color: var(--button-color);
+		background-color: transparent;
+		border: 3px solid var(--button-color);
+		border-radius: 12px;
+		text-shadow: 0 0 2px var(--button-color);
+		}
+		
+		.container{
+		background-color: var(--principal-color);
+		color: var(--text-color);
+		height: 80vh;
+		wdith: 100%;
+		}
+		
+		.content{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		height: 120%;
+		}
+			
+		</style>
+	</head>
+	
+		<body>
+			
+			<nav class="navbar">
+				
+				<h1>Samara Presentes</h1>
+				
+			</nav>
+			
+			<div class="container">
+				
+				<div class="content">
+					
+					<button class="button-p">Produtos</button>
+					<button class="button-c">Contato</button>
+					
+				</div>
+				
+			</div>	
+			
+		</body>
+		
+		<script>
+			
+			
+			
+		</script>
+	
+</html>
